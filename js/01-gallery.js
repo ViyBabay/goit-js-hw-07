@@ -37,7 +37,6 @@ function selectPic(evt) {
   );
     instance.show();
     
-
     newGallery.addEventListener("keydown", (evt) => {
       if (evt.key === "Escape") {
         instance.close();
